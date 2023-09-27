@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 220px;
+    height: 60px;
+   
+   
+}
+a{
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 1);
+    align-items: center;
+    font-family: 'Mooli', sans-serif;
+    width: 100%;
+    position: fixed;
+
+}
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+display: inline-block;
+padding-left: 10px;
+font-weight: 500;
+}
+.nav-links li a:hover{
+    color: palevioletred;
+   }
+   .nav-links li a{
+    color: white;
+   }
+   .bt-login{
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(5, 215, 248);
+    border-style: none;
+    color:white;
+    cursor: pointer;
+    margin-right: 10px;
+    font-family: 'Mooli', sans-serif;
+    font-weight: bold;
+
+    
+   
+   }
+     .bt-login:hover{
+    color: rgb(202, 25, 184);
+    cursor: pointer;
+    font-family: 'Mooli', sans-serif;  
+     }
+
+     .big{
+        font-size: 65px;
+        color: rgb(252, 242, 242)
+        
+     }
+     .small{
+        font-size: 20px;
+        color: rgb(142, 138, 136);
+     }
+     .aaaa{
+        height: 350px;
+        width: 500px;
+     }
+     .main{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.822);
+        align-items: center;
+        padding-top: 30px;
+     }
+
+.btnn{
+    color: rgb(255, 254, 255);
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(5, 215, 248);
+    cursor: pointer;  
+    margin-top: 50px; 
+    margin-left: 20px;
+    border: none;
+    font-family: 'Mooli', sans-serif;
+    font-weight: bold;
+  }
+ 
+
+.mainclient{
+    background-color: #9ea6ad;
+}
+
+  .bt{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Mooli', sans-serif;
+    color: rgba(73, 73, 203, 0.877);
+    padding-top: 30px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.cd{
+    width: 7%;
+    height: 7%;
+    padding-right: 100px;
+    padding-left: 20px;
+}
+.foot{
+    bottom: 0;
+    height: 50px;
+    background-color: #37517e;
+    font-size: 20px;
+    color: azure;
+    padding-left: 60px;
+    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    font-family: 'Mooli', sans-serif;
+}
+ .second-main{
+display: flex;
+justify-content: center;
+padding: 50px 30px;
+padding-right: 200px;
+background-color: #fffcfbe6;
+ }
+ .logoimg{
+    height: 40%;
+    width: 45%;
+    align-items: space-between;
+    padding-right: 200px;
+ }
+ .about{
+    margin-left:750px;
+    color: chocolate;
+    padding-bottom: 50px;
+    font-size: 40px;
+ }
+
+.Hello{
+ 
+    line-height: 20px;
+  text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Mooli', sans-serif;
+   
+    
+
+}
+ .down{
+    display: flex;
+    text-align: justify;
+    align-content: space-between;
+    padding-left: 300px;
+    align-items: center;
+    justify-content: space-between;
+  
+
+ }
+ .aaaa{
+    animation: up-down 7s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translateY(0);
+    }
+    25% {
+      transform: translateY(-15px);
+    }
+    50% {
+      transform: translateY(15px);
+    }
+    75% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
